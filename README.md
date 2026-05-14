@@ -1,3 +1,3 @@
 # Dropdown-Menu
-# Tap in image e see the magic
+# Tap in image and see the magic
 
