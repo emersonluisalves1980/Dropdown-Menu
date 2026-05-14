@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="/CSS/DM.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navigation-group">
+
+            <button class="profile-trigger"
+                id="profile-menu-btn"
+                aria-label="Abrir menu de perfil"
+                aria-haspopup="true"
+                aria-expanded="false">
+
+                <img
+                    src="/img/IMG_Emerson_Luis_Alves.jpg"
+                    alt="Foto de perfil"
+                    class="profile-pic">
+            </button>
+
+        </div>
+
+        <div class="dropdown-wrapper" id="profile-dropdown">
+
+            <nav>
+
+                <ul>
+                    <li>💬 New Chat</li>
+                    <li>🕘 History</li>
+                    <li>⚙️ Settings</li>
+                </ul>
+
+                <hr class="divider">
+
+                <ul>
+                    <li class="toggle-item">
+
+                        <div class="flex-row">
+                            <span>Dark Mode</span>
+                        </div>
+
+                        <label class="switch">
+
+                            <input type="checkbox" id="theme-toggle">
+
+                            <span class="slider"></span>
+
+                        </label>
+
+                    </li>
+                </ul>
+
+                <hr class="divider">
+
+                <div class="switch-account">
+
+                    <h2>Active Model</h2>
+
+                    <ul>
+
+                        <li class="active">
+
+                            <div class="model-icon opus"></div>
+
+                            <div class="user">
+                                <div class="name">Claude Opus</div>
+
+                                <div class="email">
+                                    Best for complex reasoning
+                                </div>
+                            </div>
+
+                            <div class="marker"></div>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <hr class="divider">
+
+                <button class="sign-out-all">
+                    Sign Out
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <script src="/JS/DM.js"></script>
+
+</body>
+
+</html>
